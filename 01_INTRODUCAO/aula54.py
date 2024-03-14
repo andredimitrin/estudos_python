@@ -15,12 +15,11 @@ while True:
     print('3 - Listar itens da lista')
     print('4 - Sair')
     opcao = input('Opcão: ')
-    
+
     try:
         opcao = int(opcao)
-        
-    
-        if opcao == 1:           
+
+        if opcao == 1:
             item = input('Item: ')
             lista_compras.append(item)
         elif opcao == 2:
@@ -37,10 +36,10 @@ while True:
             break
         else:
             print('Opcão inválida')
-        
+
     except ValueError:
         print('Por favor, insira um número válido para a opção.')
-        
+
     print()
-    
+
 print('Programa encerrado')
