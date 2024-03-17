@@ -6,7 +6,7 @@ Exiba os índices da lista
 2 Luiz
 """
 
-lista = ['Maria', 'Helena', 'Luiz']
+lista = ["Maria", "Helena", "Luiz"]
 
 for nome in lista:
-    print(f'{lista.index(nome)} {nome}')
+    print(f"{lista.index(nome)} {nome}")

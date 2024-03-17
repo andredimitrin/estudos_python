@@ -15,15 +15,13 @@ passou_no_if = None
 
 if condicao:
     passou_no_if = True
-    print('Verdadeiro')
+    print("Verdadeiro")
 else:
-    print('Falso')
-    
-
+    print("Falso")
 
 
 if passou_no_if is None:
-    print('Falso')
+    print("Falso")
 
 if passou_no_if is not None:
-    print('Verdadeiro')
+    print("Verdadeiro")

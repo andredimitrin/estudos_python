@@ -17,5 +17,5 @@
 # A função type mostra o tipo que o Python
 # inferiu ao valor.
 
-print(type(11.5)) #float
-print(type(-11)) #int
+print(type(11.5))  # float
+print(type(-11))  # int

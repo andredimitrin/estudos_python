@@ -2,6 +2,7 @@
 Calculadora com while
 
 """
+
 while True:
     print("\nSelecione a operação:")
     print("1 - Soma")
@@ -12,11 +13,11 @@ while True:
 
     opcao = input("Digite o número da operação desejada: ")
 
-    if opcao == '5':
+    if opcao == "5":
         print("Saindo do programa...")
         break
 
-    if opcao not in {'1', '2', '3', '4'}:
+    if opcao not in {"1", "2", "3", "4"}:
         print("Opção inválida. Por favor, escolha uma opção válida.")
         continue
 
@@ -27,16 +28,16 @@ while True:
         print("Entrada inválida. Por favor, insira um número válido.")
         continue
 
-    if opcao == '1':
+    if opcao == "1":
         resultado = num_1 + num_2
         print(f"A soma de {num_1} e {num_2} é igual a: {resultado}")
-    elif opcao == '2':
+    elif opcao == "2":
         resultado = num_1 - num_2
         print(f"A subtração de {num_1} por {num_2} é igual a: {resultado}")
-    elif opcao == '3':
+    elif opcao == "3":
         resultado = num_1 * num_2
         print(f"A multiplicação de {num_1} por {num_2} é igual a: {resultado}")
-    elif opcao == '4':
+    elif opcao == "4":
         if num_2 == 0:
             print("Erro: divisão por zero.")
         else:

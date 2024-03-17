@@ -16,44 +16,44 @@ menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva
 "Seu nome é normal"; maior que 6 escreva "Seu nome é muito grande". 
 """
 
-# Primeiro exercício 
+# Primeiro exercício
 
-numero_inteiro = input('Digite um número inteiro: ')
+numero_inteiro = input("Digite um número inteiro: ")
 
 if numero_inteiro.isdigit():
     if int(numero_inteiro) % 2 == 0:
-        print('Par')
+        print("Par")
     else:
-        print('Impar')
+        print("Impar")
 else:
-    print('Isso não é um número inteiro')
+    print("Isso não é um número inteiro")
 
 
-# Segundo exercício   
-    
-horario = input('Qual horário é (0-23) ? ')
+# Segundo exercício
+
+horario = input("Qual horário é (0-23) ? ")
 
 if horario.isdigit():
     horario = int(horario)
     if horario <= 11:
-        print('Bom dia')
+        print("Bom dia")
     elif horario <= 17:
-        print('Boa tarde')
+        print("Boa tarde")
     else:
-        print('Boa noite')
+        print("Boa noite")
 else:
-    print('Isso não é um horário')
-    
+    print("Isso não é um horário")
+
 # Terceiro exercício
-    
-nome = input('Qual seu nome? ')
+
+nome = input("Qual seu nome? ")
 
 if nome is not None:
     if len(nome) <= 4:
-        print('Seu nome é curto')
+        print("Seu nome é curto")
     elif len(nome) <= 6:
-        print('Seu nome é normal')
+        print("Seu nome é normal")
     else:
-        print('Seu nome é muito grande')
+        print("Seu nome é muito grande")
 else:
-    print('Desculpe, você deixou campos vazios.')
+    print("Desculpe, você deixou campos vazios.")

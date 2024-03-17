@@ -11,5 +11,5 @@ print(10 == 11)  # False
 
 # Comparando strings
 
-print('Fulano' == 'Fulano')  # True
-print('Fulano' == 'Ciclano')  # False
+print("Fulano" == "Fulano")  # True
+print("Fulano" == "Ciclano")  # False
